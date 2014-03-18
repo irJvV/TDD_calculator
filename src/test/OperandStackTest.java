@@ -23,7 +23,8 @@ public class OperandStackTest {
 	
 	@Test
 	public void testPushingValueOntoStack(){
-		BigDecimal value = new BigDecimal(12);
+		//BigDecimal value = new BigDecimal(12);
+		BigDecimal value = new BigDecimal(22);
 		stack.push(value);
 		assertEquals(value, stack.peek());
 	}
